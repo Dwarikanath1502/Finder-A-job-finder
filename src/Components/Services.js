@@ -1,22 +1,31 @@
 import React from "react";
-import Bot from "./Bot";
+import img4 from "../Images/logo4.jpg";
+import img5 from "../Images/logo5.jpg";
+import img6 from "../Images/logo6.jpg";
+import img7 from "../Images/logo7.jpg";
 
 function Services() {
   return (
     <>
-      <div className="container-fluid" style={{ backgroundColor: "grey", height: '190vh' }}>
-        <div className="d-flex justify-content-center my-2 ">
-          <h2 style={{ marginTop: "70px" }}>
-            <strong>Services we provide</strong>
-          </h2>
+      <div className="container-fluid " style={{ height: "450vh" }}>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="d-flex justify-content-center my-2 ">
+              <h2 style={{ marginTop: "70px" }}>
+                <strong>Services we provide</strong>
+              </h2>
+            </div>
+          </div>
         </div>
-        <div className="d-flex justify-content-center my-5">
-          <div className="col ">
-            <div className="row-sm-6">
-              <div className="card mb-3 ml-3 mr-3">
-                <div className="card-body">
-                  <h5 className="card-title">Advanced Recruitment Tools</h5>
-                  <p className="card-text">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-sm-6">
+              <div className=" mb-3 ml-3 mr-3">
+                <div>
+                  <h3>
+                    <strong>Advanced Recruitment Tools</strong>
+                  </h3>
+                  <p style={{ color: "black" }}>
                     Make recruitment and talent management your competitive
                     advantages with the preeminent recruitment mechanism to
                     compete in the market. The advanced recruitment feature
@@ -32,33 +41,75 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div className="row-sm-6">
-              <div className="card mb-3 ml-3 mr-3">
-                <div className="card-body">
-                  <h5 className="card-title">Revenue Models</h5>
-                  <p className="card-text">
-                    The Job boards have two source of core audiences for
-                    generating money, employers and job seekers as paid listing
-                    or premium service. However, most of the job sites focus on
-                    one of those two groups – and mostly paid subscription model
-                    for employers and job listing companies. This revenue model
-                    generates revenue by charging the employers a recurring fee
-                    based on either tenure-based subscription or limit with
-                    number of job posting on purchased package.While on the
-                    other side, not every job seeker wants to spend money on
-                    searching the job, but can pay the minimum amount to
-                    increase the visibility of their resume. However, the job
-                    portals could charge small amount for registration, which
-                    helps them to get a qualified candidate.
+            <div className="col-sm-6">
+              <div className="row-sm-6">
+                <div className=" mb-3 ml-5 mr-3">
+                  <img src={img4} alt="img" height="280 px" width="550px" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container-fluid mt-3">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className=" mb-3 ml-3 mr-3">
+                <div>
+                  <h3>
+                    <strong>Revenue Models</strong>
+                  </h3>
+                  <p style={{ color: "black" }}>
+                    Make recruitment and talent management your competitive
+                    advantages with the preeminent recruitment mechanism to
+                    compete in the market. The advanced recruitment feature
+                    provides all the essential tools from the single page to
+                    list, view and manage jobs; view applications, and access
+                    the analytic insights. This tool helps job seekers and
+                    employers to streamline through the hiring process.An ideal
+                    job portal must have a ubiquitous and user-specific
+                    recruitment tool, with step-by-step user guide, indications
+                    and responsive wizard in order to provide the meaningful
+                    hiring process. Make recruitment and talent management your
+                    competitive advantages with the preeminent recruitment
+                    mechanism to compete in the market. The advanced recruitment
+                    feature provides all the essential tools from the single
+                    page to list, view and manage jobs; view applications, and
+                    access the analytic insights. This tool helps job seekers
+                    and employers to streamline through the hiring process.An
+                    ideal job portal must have a ubiquitous and user-specific
+                    recruitment tool, with step-by-step user guide, indications
+                    and responsive wizard in order to provide the meaningful
+                    hiring process.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="row-sm-6">
-              <div className="card mb-3 ml-3 mr-3">
-                <div className="card-body">
-                  <h5 className="card-title">Quick and Easy Registration</h5>
-                  <p className="card-text">
+          </div>
+        </div>
+        <div className="container-fluid mt-3 d-flex justify-content-center">
+          <div className="row">
+            <div className="col-sm-12">
+              <img src={img5} width="1000px" alt="img" height="500px" />
+            </div>
+          </div>
+        </div>
+
+        <div className="container-fluid mt-4">
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="row-sm-6">
+                <div className=" mb-3">
+                  <img src={img6} alt="img" height="400 px" width="550px" />
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <div className=" mb-3 ml-3 mr-3">
+                <div className="mt-5">
+                  <h3>
+                    <strong>Quick and Easy Registration</strong>
+                  </h3>
+                  <p style={{ color: "black" }}>
                     No recruiter or job seeker wants to go around every
                     conversation with unwanted details. The portal should
                     facilitate the job seekers and employers to build a strong
@@ -74,11 +125,59 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div className="row-sm-6">
-              <div className="card mb-3 ml-3 mr-3">
-                <div className="card-body">
-                  <h5 className="card-title">Advance Filters</h5>
-                  <p className="card-text">
+          </div>
+        </div>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-sm-6 mt-4">
+              <p>
+                <strong>
+                  If a man is called to be a streetsweeper, he should sweep
+                  streets even as Michelangelo painted, or Beethoven composed
+                  music, or Shakespeare wrote poetry. He should sweep streets so
+                  well that all the hosts of heaven and earth will pause to say,
+                  here lived a great streetsweeper who did his job well. —Martin
+                  Luther King
+                </strong>
+              </p>
+            </div>
+            <div className="col-sm-6 mt-4">
+              <p>
+                <strong>
+                  The average person puts only 25% of his energy into his work.
+                  The world takes off its hat to those who put in more than 50%
+                  of their capacity, and stands on its head for those few and
+                  far between souls who devote 100%. —Andrew Carnegie
+                </strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="container-fluid mt-4 d-flex justify-content-center ">
+          <div className="row">
+            <div className="col-sm-12">
+              <p>
+                <strong>
+                  Nothing in the world can take the place of persistence. Talent
+                  will not; nothing is more common than unsuccessful men with
+                  talent. Genius will not; unrewarded genius is almost a
+                  proverb. Education will not; the world is full of educated
+                  derelicts. Persistence and determination alone are omnipotent.
+                  —Calvin Coolidge
+                </strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="container-fluid mt-3">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className=" mb-3 ml-3 mr-3">
+                <div>
+                  <h3>
+                    <strong>Advance Filters</strong>
+                  </h3>
+                  <p style={{ color: "black" }}>
                     The philosophy is that you can never have too many filters
                     for any intelligent web portal, however if you are creating
                     a website for a job board, a selection for a smart filter
@@ -95,45 +194,118 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div className="row-sm-6">
-              <div className="card mb-3 ml-3 mr-3">
-                <div className="card-body">
-                  <h5 className="card-title">Job Alerts</h5>
-                  <p className="card-text">
-                    Job Alert allows candidates to create a list of notification
-                    mails and messages based on the signal points he sets for
-                    including keywords, location and positions, whenever this
-                    matches the set criteria, then the job seeker will get the
-                    automated email notification for that job to apply. You must
-                    encourage job seekers to enable push notifications while
-                    signing up for the job portal, the ignorance of this feature
-                    could impairment your purpose of the job board software.
-                  </p>
-                </div>
+          </div>
+        </div>
+        <div className="container-fluid mt-4">
+          <div className="row">
+            <div className="col-sm-3">
+              <div className=" mb-3">
+                <img src={img7} alt="img" height="300 px" width="350px" />
               </div>
             </div>
-            <div className="row-sm-6">
-              <div className="card mb-4 ml-3 mr-3">
-                <div className="card-body">
-                  <h5 className="card-title">Job posting</h5>
-                  <p className="card-text">
-                    Employers advertise on job openings is a process that may
-                    have been complicated without streamline with Job Posting
-                    feature, as tons of postings happens and most of are
-                    automatically. The more successful job portal is the more
-                    comfort for employers to add a new Job Post, with the
-                    essential meta data he can add on the go, keywords, tags and
-                    more comprehensive information making the job listing more
-                    precise and relevant to the viewers. With the pre-ordained
-                    Questionnaire mechanism, the system can bring the perfect
-                    match and more qualified applicants.
+            <div className="col-sm-9">
+              <div className=" mb-3 ml-3 mr-3">
+                <div className="mt-5">
+                  <h3>
+                    <strong className="ml-2">
+                      Quick and Easy Registration
+                    </strong>
+                  </h3>
+                  <p className="ml-2" style={{ color: "black" }}>
+                    No recruiter or job seeker wants to go around every
+                    conversation with unwanted details. The portal should
+                    facilitate the job seekers and employers to build a strong
+                    profile attracting their leads. The profile page holds all
+                    the basic information related to the company and the
+                    professional background of the job seekers. Thus, an easy
+                    and quick registration is widely preferred by all user
+                    groups of Job Board.You must facilitate your users with
+                    login and signup through social accounts including
+                    Linked-In, Facebook and Google that can also fetch their
+                    basic profile information from.Make recruitment and talent
+                    management your competitive advantages with the preeminent
+                    recruitment mechanism to compete in the market. The advanced
+                    recruitment feature provides all the essential tools from
+                    the single page to list, view and manage jobs; view
+                    applications, and access the analytic insights. This tool
+                    helps job seekers and employers to streamline through the
+                    hiring process.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <Bot />
+        <div className="container-fluid mt-3 d-flex justify-content-center mt-5">
+          <div className="row">
+            <div className="col-sm-12">
+              <div>
+                <p className="font-weight-bold">
+                  Employers advertise on job openings is a process that may have
+                  been complicated without streamline with Job Posting feature,
+                  as tons of postings happens and most of are automatically. The
+                  more successful job portal is the more comfort for employers
+                  to add a new Job Post, with the essential meta data he can add
+                  on the go, keywords, tags and more comprehensive information
+                  making the job listing more precise and relevant to the
+                  viewers. With the pre-ordained Questionnaire mechanism, the
+                  system can bring the perfect match and more qualified
+                  applicants.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container-fluid mt-4">
+          <div className="row">
+            <div className="col-sm-3">
+              <div className=" mb-3">
+              {/* blank division */}
+              </div>
+            </div>
+            <div className="col-sm-6 ml-5">
+              <div className=" mb-3 ml-3 mr-3">
+                <div className="mt-5">
+                <h3>
+                    
+                      Get in touch with us!
+                   
+                  </h3>
+                  <form>
+                    <div class="form-outline mb-4">
+                      <input
+                        type="text"
+                        id="form5Example1"
+                        class="form-control"
+                      />
+                      <label class="form-label" htmlFor="form5Example1">
+                        Name
+                      </label>
+                    </div>
+
+                    <div class="form-outline mb-4">
+                      <input
+                        type="email"
+                        id="form5Example2"
+                        class="form-control"
+                      />
+                      <label class="form-label" htmlFor="form5Example2" placeholder="Name here">
+                        Email address
+                      </label>
+                    </div>
+
+                    <button
+                      type="submit"
+                      class="btn btn-primary btn-block "
+                    >
+                      Subscribe
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

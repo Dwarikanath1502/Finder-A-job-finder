@@ -1,5 +1,4 @@
 import React from "react";
-import Bot from "./Bot";
 //Images
 import img1 from "../Images/brand1.jpg";
 import img2 from "../Images/logo2.jpg";
@@ -8,7 +7,7 @@ import img3 from "../Images/logo3.jpg";
 function Home(props) {
   return (
     <>
-      <div style={{ backgroundColor: "grey" }}>
+      <div>
         <div className="container-fluid">
           <div className="row" style={{ marginTop: "70px" }}>
             <div className="col-sm-6" style={{ marginTop: "20px" }}>
@@ -95,8 +94,8 @@ function Home(props) {
 
         <div className="container-fluid">
           <div className="row d-flex justify-content-center mt-3">
-            <div className="col-sm-3">
-              <div className="card">
+            <div className="col-sm-3 d-flex justify-content-center">
+              <div className="card " style={{width:'170px', height:'110px'}}>
                 <div className="card-body">
                   <h5 className="card-title">
                     <i
@@ -105,13 +104,13 @@ function Home(props) {
                     ></i>
                   </h5>
                   <p className="card-text d-flex justify-content-center mt-4">
-                    SDE at Amazon.
+                    Get SDE jobs at Amazon.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-sm-3">
-              <div className="card">
+            <div className="col-sm-3 d-flex justify-content-center">
+              <div className="card" style={{width:'170px', height:'110px'}}>
                 <div className="card-body">
                   <h5 className="card-title">
                     <i
@@ -119,19 +118,19 @@ function Home(props) {
                       style={{ color: "blue" }}
                     ></i>
                   </h5>
-                  <p className="card-text d-flex justify-content-center mt-4">
+                  <p className="card-text d-flex justify-content-center mt-4 ml-1">
                     Data Analyst at Microsoft.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-sm-3">
-              <div className="card">
+            <div className="col-sm-3 d-flex justify-content-center">
+              <div className="card" style={{width:'150px', height:'110px'}}>
                 <div className="card-body">
                   <h5 className="card-title">
                     <i
                       className="fa-brands d-flex justify-content-center fa-2xl fa-aws"
-                      style={{ marginLeft: "30px", color: "#000" }}
+                      style={{  color: "#000" }}
                     ></i>
                   </h5>
                   <p className="card-text d-flex justify-content-center mt-4">
@@ -200,53 +199,53 @@ function Home(props) {
         </div>
 
         <div className="d-flex justify-content-center mt-3 ml-4 mr-4 ">
-          <div className="row justify-content-center">
-            <div className="col-sm-2">
-              <div className="card ">
+          <div className="row d-flex justify-content-center mt-3">
+            <div className="col-sm-3 ">
+              <div className="card"style={{width:'170px', height:'110px'}}>
                 <div className="card-body ">
                   <h5 className="card-title">
-                    <i className="d-flex justify-content-center fa-brands fa-2xl fa-amazon"></i>
+                    <i className="d-flex justify-content-center fa-brands fa-2xl fa-amazon mt-2"></i>
                   </h5>
-                  <p className="card-text">Helping world to connect.</p>
+                  <p className="card-text mt-4">Helping world to connect.</p>
                 </div>
               </div>
             </div>
-            <div className="col-sm-2 ">
-              <div className="card">
+            <div className="col-sm-3 ">
+              <div className="card" style={{width:'170px', height:'110px'}}>
                 <div className="card-body">
                   <h5 className="card-title">
                     <i
-                      className="d-flex justify-content-center fa-brands fa-2xl fa-amazon-pay"
+                      className="d-flex justify-content-center fa-brands fa-2xl fa-amazon-pay mt-2"
                       style={{ color: "black" }}
                     ></i>
                   </h5>
-                  <p className="card-text mt-2">Helping world to connect.</p>
+                  <p className="card-text mt-4">Helping world to connect.</p>
                 </div>
               </div>
             </div>
-            <div className="col-sm-2">
-              <div className="card">
+            <div className="col-sm-3">
+              <div className="card" style={{width:'170px', height:'110px'}}>
                 <div className="card-body">
                   <h5 className="card-title">
                     <i
-                      className="d-flex justify-content-center fa-brands fa-2xl fa-google"
+                      className="d-flex justify-content-center fa-brands fa-2xl fa-google mt-2"
                       style={{ color: "red" }}
                     ></i>
                   </h5>
-                  <p className="card-text">Helping world to connect.</p>
+                  <p className="card-text mt-4">Helping world to connect.</p>
                 </div>
               </div>
             </div>
-            <div className="col-sm-2">
-              <div className="card">
+            <div className="col-sm-3">
+              <div className="card" style={{width:'170px', height:'110px'}}>
                 <div className="card-body">
                   <h5 className="card-title">
                     <i
-                      className="d-flex mt-1 justify-content-center fa-brands fa-2xl fa-microsoft"
+                      className="d-flex mt-1 justify-content-center fa-brands fa-2xl fa-microsoft mt-2"
                       style={{ color: "#4385F4" }}
                     ></i>
                   </h5>
-                  <p className="card-text">Helping world to connect.</p>
+                  <p className="card-text mt-4">Helping world to connect.</p>
                 </div>
               </div>
             </div>
@@ -713,7 +712,7 @@ function Home(props) {
           <strong>Ask help</strong>{" "}
         </p>
       </div> */}
-        <Bot />
+        
       </div>
     </>
   );

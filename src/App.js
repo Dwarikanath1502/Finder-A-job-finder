@@ -1,13 +1,14 @@
 import React,{useState} from 'react'
 import Auth from './Components/Auth'
 import Navbar from './Components/Navbar'
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from './Components/Home';
 import Footer from './Components/Footer';
 import Jobs from './Components/Jobs';
 import Companies from './Components/Companies';
 import Services from './Components/Services';
 import Resources from './Components/Resources';
+import Bot from './Components/Bot';
 
 function App() {
 const [mode, setMode] = useState('light'); //whether dark mode is enables or not
@@ -34,6 +35,7 @@ const toggleMode = () =>{
         <Route path = '/resources' element={<Resources/>}/>
         <Route path = '/auth' element={<Auth/>}/>
       </Routes>
+      <Bot/>
       <Footer/>
     </div>
   )

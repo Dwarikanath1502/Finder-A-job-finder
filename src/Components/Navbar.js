@@ -41,7 +41,11 @@ function Navbar(props) {
                   Jobs
                 </Link>
               </li>
-              
+              <li className="nav-item">
+                <Link className="nav-link active" to="/services">
+                  Services
+                </Link>
+              </li>
               <li className="nav-item">
                 <Link
                   className="nav-link active"
@@ -51,21 +55,12 @@ function Navbar(props) {
                   Resources
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link active" to="/services">
-                  Services
-                </Link>
-              </li>
             </ul>
 
             <Link className="navbar-brand mr-3" to="/auth">
               Signup
             </Link>
-            <Link
-              className="navbar-brand mr-5"
-              to="/auth"
-              
-            >
+            <Link className="navbar-brand mr-5" to="/auth">
               Login
             </Link>
           </div>
