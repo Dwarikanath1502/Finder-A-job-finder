@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Resources() {
   return (
     <>
-      <div style={{ height: "220vh" }}>
+      <div style={{ height: "180vh" }}>
         <div
           className="container-fluid d-flex justify-content-center"
           style={{ marginTop: "80px" }}

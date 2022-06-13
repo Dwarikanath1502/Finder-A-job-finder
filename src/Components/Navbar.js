@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 function Navbar(props) {
   return (
-    <div>
+    <div style={{marginBottom:"70px"}}>
       <nav
-        className={`navbar fixed-top navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}
+        className={`navbar fixed-top navbar-expand-lg navbar-${props.mode} bg-${props.mode}` }
       >
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">

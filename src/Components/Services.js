@@ -7,11 +7,11 @@ import img7 from "../Images/logo7.jpg";
 function Services() {
   return (
     <>
-      <div className="container-fluid " style={{ height: "450vh" }}>
+      <div className="container-fluid " style={{ height: "400vh" }}>
         <div className="container-fluid">
           <div className="row">
             <div className="d-flex justify-content-center my-2 ">
-              <h2 style={{ marginTop: "70px" }}>
+              <h2 >
                 <strong>Services we provide</strong>
               </h2>
             </div>

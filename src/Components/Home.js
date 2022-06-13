@@ -9,7 +9,7 @@ function Home(props) {
     <>
       <div>
         <div className="container-fluid">
-          <div className="row" style={{ marginTop: "70px" }}>
+          <div className="row" >
             <div className="col-sm-6" style={{ marginTop: "20px" }}>
               <img src={img2} alt="img"/>
             </div>
